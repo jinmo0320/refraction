@@ -16,8 +16,8 @@ canvas {
   border: 2px solid black;
   position: relative;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 50px;
+  transform: translate(-50%, 0);
 }
 .container {
   text-align: center;

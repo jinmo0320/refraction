@@ -96,8 +96,12 @@ function animate() {
   }
   ctx.stroke();
 
-  if (newY == NaN) {
-    console.log("hi");
+  if (n1 && n2 && !newY) {
+    h4.innerHTML = "전반사 중";
+  } else if (n1 && n2 && newY) {
+    h4.innerHTML = "굴절 중";
+  } else {
+    h4.innerHTML = "값을 입력하세요";
   }
 }
 
