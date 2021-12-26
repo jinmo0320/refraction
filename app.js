@@ -50,6 +50,7 @@ btn.addEventListener("click", () => {
 function animate() {
   myAnimation = requestAnimationFrame(animate);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.lineWidth = 2;
 
   ctx.fillStyle = "rgba(0,0,255, 0.01)";
   ctx.fillRect(0, 0, canvas.width, canvas.height / 2);
